@@ -1,0 +1,9 @@
+# Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
+# Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
+
+# 自定义文章的 URL 路径格式
+# 示例 ":contentbasename" -> /posts/my-post/
+# 示例 ":year/:month/:title" -> /posts/2024/03/my-post/
+
+# posts = ":year/:month/:contentbasename"
+posts = ":contentbasename"
